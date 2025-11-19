@@ -1,0 +1,112 @@
+/* ====== Reset básico ====== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ====== Cuerpo general ====== */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+/* ====== Encabezado ====== */
+header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+header h1 {
+  font-size: 2rem;
+  color: #2c3e50;
+}
+
+header p {
+  font-size: 1.1rem;
+  color: #7f8c8d;
+}
+
+/* ====== Secciones ====== */
+section {
+  margin-bottom: 2rem;
+}
+
+section h2 {
+  font-size: 1.5rem;
+  color: #2980b9;
+  border-bottom: 2px solid #2980b9;
+  padding-bottom: 0.3rem;
+  margin-bottom: 1rem;
+}
+
+/* ====== Listas generales ====== */
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+ul li {
+  margin-bottom: 0.8rem;
+}
+
+/* ====== Experiencia laboral ====== */
+#career-history ul li {
+  background-color: #ecf0f1;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+/* ====== Footer ====== */
+footer {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #95a5a6;
+  margin-top: 3rem;
+}
+
+footer nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+footer nav ul li a {
+  text-decoration: none;
+  color: #2980b9;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+footer nav ul li a:hover {
+  color: #1abc9c;
+}
+
+/* ====== Responsive ajustes ====== */
+@media (max-width: 600px) {
+  body {
+    padding: 1rem;
+  }
+
+  header h1 {
+    font-size: 1.5rem;
+  }
+
+  section h2 {
+    font-size: 1.3rem;
+  }
+
+  footer nav ul {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}
+
